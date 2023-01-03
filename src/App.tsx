@@ -41,6 +41,9 @@ const Container = styled.div<Props>`
   padding: 31px 24px 79px 24px;
   display: flex;
   flex-direction: column;
+  @media screen and (min-width: 480px) {
+    height: 100vh;
+  }
 `;
 const Title = styled.h1<Props>`
   font-size: 26px;
