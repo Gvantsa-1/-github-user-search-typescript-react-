@@ -35,6 +35,7 @@ const Container = styled.div<Props>`
   justify-content: center;
   align-items: center;
   max-width: 100%;
+  height: 120vh;
   background: ${(props) =>
     props.dark ? "var(--backgroundWhite)" : "var(--background)"};
   padding: 31px 24px 79px 24px;
