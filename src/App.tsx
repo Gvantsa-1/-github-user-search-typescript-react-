@@ -43,6 +43,7 @@ const Container = styled.div<Props>`
   flex-direction: column;
   @media screen and (min-width: 480px) {
     height: 100vh;
+    overflow: hidden;
   }
 `;
 const Title = styled.h1<Props>`
